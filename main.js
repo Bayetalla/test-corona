@@ -1,5 +1,5 @@
 alert(
-  "Vous allez savoir votre état concernant les symptômes du coronavirus.n Tapez 20 si oui et 0 si non pour chaque question."
+  "Vous allez savoir votre état concernant les symptômes du coronavirus. Tapez 20 si oui et 0 si non pour chaque question."
 );
 
 let a = Number(prompt("Avez-vous de la fièvre ? (20 ou 0)"));
