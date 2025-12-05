@@ -1,19 +1,13 @@
-let test = alert(
-  "vous aller savoir votre etat consernant le symtome du coronabirus"
+alert(
+  "Vous allez savoir votre état concernant les symptômes du coronavirus.n Tapez 20 si oui et 0 si non pour chaque question."
 );
-let score = 0;
 
-let fievre = prompt("Avez-vous de la fièvre ? (oui/non)");
-if (fievre === "oui") score += 20;
+let a = Number(prompt("Avez-vous de la fièvre ? (20 ou 0)"));
+let b = Number(prompt("Avez-vous des vomissements ? (20 ou 0)"));
+let c = Number(prompt("Avez-vous de la diarrhée ? (20 ou 0)"));
+let d = Number(prompt("Avez-vous des maux de tête ? (20 ou 0)"));
+let e = Number(prompt("Toussez-vous ? (20 ou 0)"));
 
-let vomit = prompt("Avez-vous des vomissements ? (oui/non)");
-if (vomit === "oui") score += 20;
-let diar = prompt("Avez-vous de la diarrhée ? (oui/non)");
-if (diar === "oui") score += 20;
+let total = a + b + c + d + e;
 
-let head = prompt("Avez-vous des maux de tête ? (oui/non)");
-if (head === "oui");
-let toux = prompt("Toussez-vous ? (oui/non)");
-if (toux === "oui") score += 20;
-
-alert("Votre pourcentage de symptômes est de  "+ score  +" %");
+alert("Votre pourcentage de symptômes est de " + total + " %");
