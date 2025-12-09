@@ -13,3 +13,4 @@ let seye="khouna"
 let total = a + b + c + d + e;
 
 alert("Votre pourcentage de symptômes est de " + total + " %");
+let kya="tambadou"
