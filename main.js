@@ -8,6 +8,7 @@ let c = Number(prompt("Avez-vous de la diarrhée ? (20 ou 0)"));
 let d = Number(prompt("Avez-vous des maux de tête ? (20 ou 0)"));
 let e = Number(prompt("Toussez-vous ? (20 ou 0)"));
 let teste ="une nouvelle ligne "
+let part = "Ma seconde partit"
 
 let total = a + b + c + d + e;
 
