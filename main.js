@@ -10,6 +10,8 @@ let e = Number(prompt("Toussez-vous ? (20 ou 0)"));
 let teste ="une nouvelle ligne "
 let part = "Ma seconde partit"
 
+let seye="khouna"
 let total = a + b + c + d + e;
 
 alert("Votre pourcentage de symptômes est de " + total + " %");
+let kya="tambadou"
